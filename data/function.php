@@ -3,7 +3,13 @@
 
 require_once "bclass.php";
 
-$person = new Person();
+$eko = new Person();
+$eko->name = "gio";
+$eko->sayHello("tono bin sulaiman");
 
-$person->sayHello("tono bin sulaiman");
+
+$joko = new Person();
+$joko->name = "joko";
+$joko->sayHello(null);
+
 
