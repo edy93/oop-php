@@ -1,8 +1,8 @@
 <?php
 
-require_once "bclass.php";
+require_once "person.php";
 
-$person = new Person();
+$person = new Person("edy", "saputra");
 $person->name = "edi Saputra, A.Md.";
 $person->adress = "Punggur Besar Kubu Raya";
 
@@ -13,7 +13,7 @@ echo "name : $person->name". PHP_EOL;
 echo "name : $person->adress". PHP_EOL;
 echo "name : $person->country". PHP_EOL;
 
-$person2 = new Person();
+$person2 = new Person("eko", null);
 $person2->name = "ayane";
 $person2->adress = NULL;
 
