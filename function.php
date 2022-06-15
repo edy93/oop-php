@@ -1,7 +1,7 @@
 <?php
 
 
-require_once "bclass.php";
+require_once "data/person.php";
 
 $eko = new Person("edy", "saputra");
 $eko->name = "gio";

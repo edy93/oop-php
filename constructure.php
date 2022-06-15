@@ -1,5 +1,5 @@
 <?php
-require_once "person.php";
+require_once "data/person.php";
 $eko = new Person("edy","punggur");
 
 
